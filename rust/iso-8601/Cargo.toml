@@ -1,0 +1,11 @@
+[package]
+name = "kossnocorp-reviews-iso-8601"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sasha Koss <koss@nocorp.me>"]
+
+[package.metadata.release]
+release = false
+
+[dependencies]
+chrono = "0.4.38"
